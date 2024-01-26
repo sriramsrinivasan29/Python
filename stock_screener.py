@@ -257,7 +257,7 @@ min_volume = st.sidebar.text_input("Minimum Volume", 1e6)
 min_price = st.sidebar.slider('Minimum Price ($)', 0,5000, 0)
 days = st.sidebar.slider('Max Period (days)', 14, 730, 365)
 min_rs_rating = st.sidebar.slider('Minimum Relative Strange Rating', 1, 100, 70)
-with st.beta_container():
+with st.container():
 	st.title('Mark Minervini’s Trend stock screener')
 	st.write('''
 		I've created this app help screen for stock using the Mark Minervini's 8 principles
