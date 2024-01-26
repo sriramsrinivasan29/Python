@@ -268,7 +268,7 @@ with st.container():
 
 		You can read more about this template in Mark Minervini’s [blog post](http://www.minervini.com/blog/index.php/blog/first_things_first_how_to_chart_stocks_correctly_and_increase_your_chances).
 		''')
-	expander = st.beta_expander("Principles")
+	expander = st.expander("Principles")
 
 	expander.write('''
 	
