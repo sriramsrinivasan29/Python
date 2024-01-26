@@ -1,7 +1,8 @@
 #stock_screener.py
 
-from pandas_datareader import data as pdr
+
 from yahoo_fin import stock_info as si
+from pandas_datareader import data as pdr
 # import yahoo_fin
 #from pandas import ExcelWriter
 import yfinance as yf
