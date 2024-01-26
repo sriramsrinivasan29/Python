@@ -1,6 +1,6 @@
 #stock_screener.py
 
-from pandas-datareader import data as pdr
+from pandas_datareader import data as pdr
 from yahoo_fin import stock_info as si
 # import yahoo_fin
 #from pandas import ExcelWriter
