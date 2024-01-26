@@ -1,4 +1,4 @@
-name: stock-screener
+name: stock_screener
 channels:
   - defaults
 dependencies:
