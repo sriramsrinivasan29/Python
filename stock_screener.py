@@ -188,7 +188,7 @@ def stock_screener(index_tinker_name='S&P500', min_vol=5e6, min_price=0, days=36
 	min_volume = min_vol
 	# index_name = '^GSPC' # SPY or S&P 500
 	stocklist = index_list.get(index_tinker_name)[:]
-
+	print(stocklist)
 	index_rs_strange_value = calc_relative_strength(
 								get_stock(
 									index_tinker[index_tinker_name], days
